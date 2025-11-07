@@ -42,4 +42,13 @@ public interface CardDeckKernal extends Standard<CardDeckKernal> {
      */
     void bury(Card c);
 
+    /**
+     * Returns the number of cards in this deck.
+     *
+     * @ensures this = #this
+     *
+     * @return number of cards
+     */
+    int size();
+
 }

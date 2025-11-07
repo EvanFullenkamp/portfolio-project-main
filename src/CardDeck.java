@@ -5,14 +5,6 @@ import javax.smartcardio.Card;
  * {@code CardDeckKernal enhanced with secondary methods}
  */
 public interface CardDeck extends CardDeckKernal {
-    /**
-     * Returns the number of cards in this deck.
-     *
-     * @ensures this = #this
-     *
-     * @return number of cards
-     */
-    int size();
 
     /**
      * Returns whether or not the deck is empty.
