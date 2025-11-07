@@ -8,6 +8,16 @@ the following form: YYYY.0M.0D.
 
 ## [Unreleased]
 
+## YYYY.MM.DD
+
+### Added
+
+- Designed abstract class for CardDeck component
+
+### Changed
+
+- Moved Size() method to kernal class
+
 ## 2025.10.17
 
 ### Added
