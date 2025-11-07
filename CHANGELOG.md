@@ -10,14 +10,6 @@ the following form: YYYY.0M.0D.
 
 ## 2025.11.07
 
-### Added
-
-- Designed abstract class for CardDeck component
-
-### Updated
-
-- Changed design to include ...
-
 ### Changed
 
 - Moved Size() method to kernal class
