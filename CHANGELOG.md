@@ -28,6 +28,12 @@ the following form: YYYY.0M.0D.
 
 - Removed createNewDeck to instead add the 52 cards in the constructor
 
+## 2025.11.20
+
+### Added
+
+- Designed kernel implementation for CardDeck component
+
 ## 2025.10.17
 
 ### Added
