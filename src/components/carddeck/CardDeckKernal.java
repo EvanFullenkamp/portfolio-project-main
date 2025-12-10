@@ -1,5 +1,4 @@
-import javax.smartcardio.Card;
-
+package components.carddeck;
 import components.standard.Standard;
 
 /**

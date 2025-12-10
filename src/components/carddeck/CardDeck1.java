@@ -1,5 +1,4 @@
-import javax.smartcardio.Card;
-
+package components.carddeck;
 import components.sequence.Sequence;
 import components.sequence.Sequence1L;
 
@@ -39,7 +38,7 @@ public class CardDeck1 extends CardDeckSecondary {
     }
 
     @Override
-    public void transferFrom(CardDeckSecondary source) {
+    public void transferFrom(CardDeckKernal source) {
         assert source != this : "Violation of: source is not this";
 
         CardDeck1 s = (CardDeck1) source;
@@ -68,6 +67,7 @@ public class CardDeck1 extends CardDeckSecondary {
      * @ensures size of deck decreases by 1 and only the top card is removed
      * @return top card in the deck
      */
+    @Override
     public Card draw() {
         return this.deck.remove(0);
     }
@@ -81,16 +81,12 @@ public class CardDeck1 extends CardDeckSecondary {
      * @requires c is not null
      * @ensures size of deck increases by 1 and c is at the bottom of the deck
      */
+    @Override
     public void bury(Card c) {
         this.deck.add(this.deck.length(), c);
     }
 
-    /**
-     * Returns the number of cards in the deck.
-     *
-     * @return number of cards in the deck
-     * @ensures size = number of cards in the deck
-     */
+    @Override
     public int size() {
         return this.deck.length();
     }

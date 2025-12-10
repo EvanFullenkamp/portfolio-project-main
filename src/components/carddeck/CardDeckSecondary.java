@@ -1,6 +1,5 @@
+package components.carddeck;
 import java.util.Random;
-
-import javax.smartcardio.Card;
 
 /**
  * Secondary implementation of the {@code CardDeck} component.

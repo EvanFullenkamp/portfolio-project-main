@@ -1,12 +1,20 @@
+/**
+ * Class representing a playing card with a suit and rank.
+ */
 public class Card {
 
+    /**
+     * Enumerations for the suit of the card.
+     */
     public enum Suit {
         HEARTS, DIAMONDS, SPADES, CLUBS
     }
 
+    /**
+     * Enumerations for the rank of the card.
+     */
     public enum Rank {
-        ACE, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT,
-        NINE, TEN, JACK, QUEEN, KING
+        ACE, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE, TEN, JACK, QUEEN, KING
     }
 
     public Suit suit;
@@ -18,16 +26,16 @@ public class Card {
     }
 
     public Suit getSuit() {
-        return suit;
+        return this.suit;
     }
 
     public Rank getRank() {
-        return rank;
+        return this.rank;
     }
 
     @Override
     public String toString() {
-        return rank + " of " + suit;
+        return this.rank + " of " + this.suit;
     }
 
 }
