@@ -8,7 +8,7 @@ the following form: YYYY.0M.0D.
 
 ## [Unreleased]
 
-## YYYY.MM.DD
+## 2025.11.07
 
 ### Added
 
@@ -17,6 +17,16 @@ the following form: YYYY.0M.0D.
 ### Changed
 
 - Moved Size() method to kernal class
+
+## 2025.10.22
+
+### Added
+
+- Designed kernel and enhanced interfaces for CardDeck component
+
+### Updated
+
+- Removed createNewDeck to instead add the 52 cards in the constructor
 
 ## 2025.10.17
 
