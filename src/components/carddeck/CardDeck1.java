@@ -1,4 +1,5 @@
 package components.carddeck;
+
 import components.sequence.Sequence;
 import components.sequence.Sequence1L;
 
@@ -51,7 +52,8 @@ public class CardDeck1 extends CardDeckSecondary {
      *
      * @ensures deck contains 52 cards, one of each suit and rank combination.
      */
-    private void createNewRep() {
+    @Override
+    public void createNewRep() {
         this.deck = new Sequence1L<Card>();
         for (Card.Suit suit : Card.Suit.values()) {
             for (Card.Rank rank : Card.Rank.values()) {

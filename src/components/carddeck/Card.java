@@ -1,3 +1,5 @@
+package components.carddeck;
+
 /**
  * Class representing a playing card with a suit and rank.
  */
@@ -7,7 +9,7 @@ public class Card {
      * Enumerations for the suit of the card.
      */
     public enum Suit {
-        HEARTS, DIAMONDS, SPADES, CLUBS
+        HEARTS, DIAMONDS, SPADES, CLUBS;
     }
 
     /**

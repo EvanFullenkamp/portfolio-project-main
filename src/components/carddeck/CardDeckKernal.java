@@ -1,4 +1,5 @@
 package components.carddeck;
+
 import components.standard.Standard;
 
 /**
@@ -49,5 +50,14 @@ public interface CardDeckKernal extends Standard<CardDeckKernal> {
      * @return number of cards
      */
     int size();
+
+    /**
+     * Creates a new 52-card deck.
+     *
+     * @updates {@code this}
+     *
+     * @ensures this = a new deck of 52 cards
+     */
+    void createNewRep();
 
 }
