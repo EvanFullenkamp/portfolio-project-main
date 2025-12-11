@@ -34,4 +34,5 @@ public interface CardDeck extends CardDeckKernal {
      * @ensures this is a permutation of #this
      */
     void shuffle();
+
 }

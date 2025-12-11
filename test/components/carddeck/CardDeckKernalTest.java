@@ -1,10 +1,9 @@
+package components.carddeck;
+
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
 
 import org.junit.Test;
-
-import components.carddeck.Card;
-import components.carddeck.CardDeck1;
 
 /**
  * JUnit test fixture for CardDeckKernal methods.
