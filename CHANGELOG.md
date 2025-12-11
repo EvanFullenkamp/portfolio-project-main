@@ -8,13 +8,62 @@ the following form: YYYY.0M.0D.
 
 ## [Unreleased]
 
+## 2025.12.10
+
+### Added
+
+- Designed two different use cases for CardDeck component (Black Jack and Ride the Bus)
+- Answered Component Reflection Questions
+
+## 2025.12.09
+
+### Added
+
+- Designed test suite for CardDeck component
+
+## 2025.12.08
+
+### Added
+
+- Merged all CardDeck classes into a components folder
+
+### Changed
+
+- Updated some methods
+
+## 2025.11.20
+
+### Added
+
+- Designed kernel implementation for CardDeck component
+
+## 2025.11.07
+
+### Added
+
+- Designed abstract class for CardDeck component
+
+### Changed
+
+- Moved Size() method to kernal class
+
+### Updated
+
+- Removed createNewDeck to instead add the 52 cards in the constructor
+
+## 2025.10.22
+
+### Added
+
+- Designed kernel and enhanced interfaces for CardDeck component
+
 ## 2025.10.17
 
 ### Added
 
 - Designed a proof of concept for CardDeck component
 
-## 2025.04.21
+## 2025.09.21
 
 ### Added
 
